@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open VLC"
+        android:id="@+id/bopenvlc"
+        android:layout_marginTop="53dp"
+        android:layout_below="@+id/bRemote"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open VLC2"
+        android:id="@+id/bopenvlc2"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/bopenvlc"
+        android:layout_alignLeft="@+id/bopenvlc"
+        android:layout_alignStart="@+id/bopenvlc" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:id="@+id/bexit"
+        android:layout_below="@+id/bopenvlc2"
+        android:layout_alignRight="@+id/bopenvlc"
+        android:layout_alignEnd="@+id/bopenvlc"
+        android:layout_marginTop="71dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Remote"
+        android:id="@+id/bRemote"
+        android:layout_marginTop="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
